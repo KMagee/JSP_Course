@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration Form</title>
+</head>
+<body>
+
+
+<form action="student-radio-result.jsp">
+
+First Name: <input type="text" name="firstName" />
+<br/>
+<br/>
+Last Name: <input type="text" name="lastName"/>
+<br/>
+<br/>
+
+Favourite Language<br/>
+
+<input type="radio" name="favouritelanguage" value="Ruby"/> Ruby
+<input type="radio" name="favouritelanguage" value="Java"/> Java
+<input type="radio" name="favouritelanguage" value="PHP"/> PHP
+<input type="radio" name="favouritelanguage" value="C"/> C
+
+
+<br/><br/>
+<input type="submit" name="Submit"/>
+
+</form>
+
+
+
+
+</body>
+</html>
